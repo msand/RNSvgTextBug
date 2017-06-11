@@ -23,12 +23,12 @@ const styles = {
 
 export default () => (
   <div style={styles.container}>
-    <span style={styles.welcome}>
+    <div style={styles.welcome}>
       Welcome to Next.js!
-    </span>
+    </div>
     <Path />
-    <span style={styles.instructions}>
+    <div style={styles.instructions}>
       To get started, run 'npm run dev' and edit pages/index.js
-    </span>
+    </div>
   </div>
 );

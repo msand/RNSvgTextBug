@@ -10,8 +10,13 @@ const Label = ({ name, x }) => (
   </Text>
 );
 
+const isReactNative = typeof navigator === 'object' &&
+    navigator.product === 'ReactNative';
+
+const width = isReactNative ? '600' : '100%';
+
 export default () => (
-  <Svg width="600" height="300" viewBox="-150 0 600 300">
+  <Svg width={width} height="300" viewBox="-150 0 600 300">
     <Defs>
       <Path
         id="textcurve"
