@@ -1,20 +1,16 @@
 import React from "react";
 
-import Svg, {
-  Path,
-  Defs,
-  Text,
-  TextPath
-} from "svgs";
+import Svg, { Path, Defs, Text, TextPath } from "svgs";
 
-const Label = ({ name, x }) =>
+const Label = ({ name, x }) => (
   <Text x={x} y="12">
     <TextPath href="#textcurve">
       {name}
     </TextPath>
-  </Text>;
+  </Text>
+);
 
-export default () =>
+export default () => (
   <Svg width="600" height="300" viewBox="-150 0 600 300">
     <Defs>
       <Path
@@ -30,4 +26,5 @@ export default () =>
     <Label x="25" name="Test 1" />
     <Label x="180" name="Test 2" />
     <Label x="485" name="Test 3" />
-  </Svg>;
+  </Svg>
+);
