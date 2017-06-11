@@ -26,7 +26,7 @@ export default () => (
     <div style={styles.welcome}>
       Welcome to Next.js!
     </div>
-    <Path />
+    <Path width="100%" />
     <div style={styles.instructions}>
       To get started, run 'npm run dev' and edit pages/index.js
     </div>

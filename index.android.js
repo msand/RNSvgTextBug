@@ -5,8 +5,10 @@
  */
 
 import React, { Component } from "react";
-import { AppRegistry, StyleSheet, Text, View } from "react-native";
+import { AppRegistry, StyleSheet, Text, View, Dimensions } from "react-native";
 import Path from "./components/path";
+
+const { width } = Dimensions.get("window");
 
 export default class RNSvgTextBug extends Component {
   render() {
@@ -15,7 +17,7 @@ export default class RNSvgTextBug extends Component {
         <Text style={styles.welcome}>
           Welcome to React Native!
         </Text>
-        <Path />
+        <Path width={width} />
         <Text style={styles.instructions}>
           To get started, edit index.android.js
         </Text>
