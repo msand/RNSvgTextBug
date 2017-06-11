@@ -4,10 +4,12 @@ Renders correctly in web / next.js, the text is on top of the path referenced in
 
 Renders incorrectly in native, text is below path (at least android, haven't tried ios)
 
-To test android:
+To test android
 
 `react-native run-android`
 
-To test web:
+To test web / next.js
 
 `npm run dev`
+
+![Screenshot](./screenshot.png "Screenshot")
