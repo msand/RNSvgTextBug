@@ -1,6 +1,7 @@
 import React from "react";
 
 import Path from "../components/path";
+import Path2 from "../components/toap01";
 
 const styles = {
   container: {
@@ -27,6 +28,7 @@ export default () => (
       Welcome to Next.js!
     </div>
     <Path width="100%" />
+    <Path2 width="100%" />
     <div style={styles.instructions}>
       To get started, run 'npm run dev' and edit pages/index.js
     </div>

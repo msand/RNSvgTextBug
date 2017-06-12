@@ -7,6 +7,7 @@
 import React, { Component } from "react";
 import { AppRegistry, StyleSheet, Text, View, Dimensions } from "react-native";
 import Path from "./components/path";
+import Path2 from "./components/toap01";
 
 const { width } = Dimensions.get("window");
 
@@ -18,6 +19,7 @@ export default class RNSvgTextBug extends Component {
           Welcome to React Native!
         </Text>
         <Path width={width} />
+        <Path2 width={width} />
         <Text style={styles.instructions}>
           To get started, edit index.android.js
         </Text>
