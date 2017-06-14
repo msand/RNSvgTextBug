@@ -23,8 +23,8 @@
 		"react": "^15.4.1",
 		"react-dom": "^15.4.1",
 		"react-native": "^0.42.3",
-		"react-native-svg": "git+https://github.com/msand/react-native-svg.git#49c95f5",
-		"svgs": "git+https://github.com/msand/svgs.git#ae8a4af"
+		"react-native-svg": "git+https://github.com/msand/react-native-svg.git#e9747be",
+		"svgs": "^2.3.0"
 	},
 	"devDependencies": {
 		"babel-jest": "20.0.3",

@@ -1,11 +1,13 @@
 import React from "react";
 
-import Svg, { Path, Defs, Text, TextPath } from "svgs";
+import Svg, { Path, Defs, Text, TSpan, TextPath } from "svgs";
 
 const Label = ({ name, x }) => (
   <Text x={x} y="12">
     <TextPath href="#textcurve">
-      {name}
+      <TSpan dy="0" fill="red">
+        {name}
+      </TSpan>
     </TextPath>
   </Text>
 );

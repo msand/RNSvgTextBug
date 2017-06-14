@@ -18,6 +18,7 @@ import {
   Svg,
   Symbol,
   Text,
+  TSpan,
   TextPath,
   Use
 } from "svgs";
@@ -37,7 +38,14 @@ export default ({ width, height }) => (
     <Use href="#MyPath" fill="none" stroke="red" />
     <Text fontFamily="Verdana" fontSize="42.5" fill="blue">
       <TextPath href="#MyPath">
-        We go up, then we go down, then up again
+        We go
+        <TSpan dy="-30" fill="red">
+          up
+        </TSpan>
+        <TSpan dy="30">
+          ,
+        </TSpan>
+        then we go down, then up again
       </TextPath>
     </Text>
 
