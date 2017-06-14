@@ -34,15 +34,15 @@ export default ({ width, height }) => (
       x="1"
       y="1"
     />
-    <G fill="blue" fontSize="60" stroke="red" strokeWidth="1">
+    <G fontSize="60" fill="blue" stroke="red" strokeWidth="1">
       <Text x="100" y="75">Normal text</Text>
-      <Text x="100" y="165">Text with line-through</Text>
-      <Text x="100" y="255">Underlined text</Text>
-      <Text x="100" y="345">
-        <TSpan>One</TSpan>
-        <TSpan fill="yellow" stroke="purple">word</TSpan>
-        <TSpan fill="yellow" stroke="black">has</TSpan>
-        <TSpan fill="yellow" stroke="darkgreen">different</TSpan>
+      <Text x="100" y="165" textDecoration="line-through">Text with line-through</Text>
+      <Text x="100" y="255" textDecoration="underline">Underlined text</Text>
+      <Text x="100" y="345" textDecoration="underline">
+        <TSpan>One </TSpan>
+        <TSpan fill="yellow" stroke="purple">word </TSpan>
+        <TSpan fill="yellow" stroke="black">has </TSpan>
+        <TSpan fill="yellow" stroke="darkgreen" textDecoration="underline">different </TSpan>
         <TSpan fill="yellow" stroke="blue">underlining</TSpan>
       </Text>
     </G>

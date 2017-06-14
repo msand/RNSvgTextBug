@@ -30,10 +30,11 @@ export default ({ width, height }) => (
     version="1.1"
     viewBox="0 0 400 400"
     xmlLang="he"
+    direction="rtl"
   >
     <Text fontSize="20" x="200" y="200">
       כתובת MAC:‏
-      <TSpan>00-24-AF-2A-55-FC</TSpan>
+      <TSpan direction="ltr">00-24-AF-2A-55-FC</TSpan>
     </Text>
   </Svg>
 );

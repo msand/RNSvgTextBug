@@ -13,3 +13,5 @@ To test web / next.js
 `npm run dev`
 
 ![Screenshot](./screenshot.png "Screenshot")
+
+![Screenshot2](./screenshot2.png "Screenshot2")

@@ -27,18 +27,19 @@ export default ({ width, height }) => (
   <Svg height={height} width={width} version="1.1" viewBox="0 0 1000 300">
     <Defs>
       <Path
-        id="MyPath"
+        id="MyPath3"
         d="M 100 200
                C 200 100 300   0 400 100
                C 500 200 600 300 700 200
                C 800 100 900 100 900 100"
       />
     </Defs>
-    <Path d="M 100 200
-               C 200 100 300   0 400 100
-               C 500 200 600 300 700 200
-               C 800 100 900 100 900 100" />
-    <Text fill="blue" fontFamily="Verdana" fontSize="42.5" />
+    <Use href="#MyPath3" fill="none" stroke="red"/>
+      <Text fill="blue" fontFamily="Verdana" fontSize="42.5">
+          <TextPath href="#MyPath3" startOffset="80%">
+              We go up, then we go down, then up again
+          </TextPath>
+      </Text>
     <Rect
       height="298"
       width="998"
