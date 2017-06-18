@@ -3,9 +3,9 @@ import React from "react";
 import Svg, { Path, Defs, Text, TSpan, TextPath } from "svgs";
 
 const Label = ({ name, x }) => (
-  <Text x={x} y="12">
+  <Text x={x} y="0">
     <TextPath href="#textcurve">
-      <TSpan dy="0" fill="red">
+      <TSpan dx="0" dy="0" fill="red">
         {name}
       </TSpan>
     </TextPath>
