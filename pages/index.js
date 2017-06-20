@@ -18,6 +18,7 @@ import {
     Tref1,
 } from "../src/components";
 import Request from '../src/components/request';
+import Request2 from '../src/components/request2';
 
 const styles = {
   container: {
@@ -44,6 +45,7 @@ export default () => (
       Welcome to Next.js!
     </div>
     <Request />
+    <Request2 />
     <ToapCircle width="100%" height={150} />
     <Toap01 width="100%" height={150} />
     <Toap02 width="100%" height={150} />
