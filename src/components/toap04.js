@@ -36,7 +36,7 @@ export default ({ width, height }) => (
       />
     </Defs>
       <Use href="#MyPath4" fill="none" stroke="red"/>
-      <Text fill="blue" fontFamily="Verdana" fontSize="42.5">
+      <Text fill="blue" fontFamily="Verdana" fontSize="60" letterSpacing="2">
           <TextPath href="#MyPath4">
               Choose shame or get war
           </TextPath>
