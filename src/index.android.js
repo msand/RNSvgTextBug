@@ -22,7 +22,8 @@ import {
     Toap04,
     Text01,
     Tref1,
-} from "./components";
+} from "./components/index";
+import Request from './components/request';
 
 const { width } = Dimensions.get("window");
 
@@ -45,7 +46,8 @@ export default class RNSvgTextBug extends Component {
         <Text style={styles.welcome}>
           Welcome to React Native!
         </Text>
-        <ToapCircle width={width} height={width * 0.3} />
+        <Request />
+        <ToapCircle width={width} height={width * 0.3} native={true}/>
         <Toap01 width={width} height={width * 0.3} />
         <Toap02 width={width} height={width * 0.3} />
         <Toap03 width={width} height={width * 0.3} />

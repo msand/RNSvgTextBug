@@ -16,7 +16,8 @@ import {
     Toap04,
     Text01,
     Tref1,
-} from "../components";
+} from "../src/components";
+import Request from '../src/components/request';
 
 const styles = {
   container: {
@@ -42,6 +43,7 @@ export default () => (
     <div style={styles.welcome}>
       Welcome to Next.js!
     </div>
+    <Request />
     <ToapCircle width="100%" height={150} />
     <Toap01 width="100%" height={150} />
     <Toap02 width="100%" height={150} />
