@@ -47,8 +47,8 @@ export default class RNSvgTextBug extends Component {
         <Text style={styles.welcome}>
           Welcome to React Native!
         </Text>
-        <Request />
-        <Request2 />
+        <Request width={width} height={width * 0.3}/>
+        <Request2 width={width} height={width * 0.3} />
         <ToapCircle width={width} height={width * 0.3} native={true}/>
         <Toap01 width={width} height={width * 0.3} />
         <Toap02 width={width} height={width * 0.3} />

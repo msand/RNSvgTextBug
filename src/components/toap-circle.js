@@ -3,9 +3,9 @@ import React from "react";
 import Svg, { Path, Defs, Text, TSpan, TextPath } from "svgs";
 
 const Label = ({ name, x, native }) => (
-  <Text x={x / (native ? (4 / 3) : 1)} y="0">
-    <TextPath href="#textcurve">
-      <TSpan dx="0" dy="0" fill="red">
+  <Text y="0" fontSize="10">
+    <TextPath href="#textcurve" fill="red">
+      <TSpan x={x / (native ? 1.1 : 1)}>
         {name}
       </TSpan>
     </TextPath>

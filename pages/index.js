@@ -44,8 +44,8 @@ export default () => (
     <div style={styles.welcome}>
       Welcome to Next.js!
     </div>
-    <Request />
-    <Request2 />
+    <Request width="100%" height={150} />
+    <Request2 width="100%" height={150} />
     <ToapCircle width="100%" height={150} />
     <Toap01 width="100%" height={150} />
     <Toap02 width="100%" height={150} />

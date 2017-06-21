@@ -36,7 +36,7 @@ export default ({ width, height }) => (
     </Defs>
 
     <Use href="#MyPath2" fill="none" stroke="red" />
-    <Text fontFamily="Verdana" fontSize="42.5" fill="blue">
+    <Text fontFamily="Verdana" fontSize={(typeof width === 'string' ? "42.5" : "50")} fill="blue" letterSpacing={(typeof width === 'string' ? "0" : "0")} kerning="0">
       <TextPath href="#MyPath2">
         We go
         <TSpan dy="-30" fill="red">
