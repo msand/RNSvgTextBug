@@ -35,7 +35,7 @@ export default ({ width, height }) => (
     </Defs>
 
     <Use href="#MyPath1" fill="none" stroke="red" />
-    <Text fontFamily="Verdana" fontSize={(typeof width === 'string' ? "42.5" : "50")} fill="blue" letterSpacing={(typeof width === 'string' ? "0" : "0")} kerning="0">
+    <Text fontFamily="Verdana" fontSize={(typeof width === 'string' ? "42.5" : "50")} fill="blue" letterSpacing={(typeof width === 'string' ? "0" : "0")}>
       <TextPath href="#MyPath1">
         We go up, then we go down, then up again
       </TextPath>

@@ -13,7 +13,7 @@ export default ({width, height}) => (
         <Path d="M225,150 v-80 h240 v80 Z" stroke="#00f" strokeWidth="1px" fill="none"/>
 
         <Text stroke="#000" fontFamily="Arial" fontSize="24" letterSpacing={(typeof width === 'string' ? "0" : "0")}
-              kerning="0" wordSpacing="0">
+              wordSpacing="0">
             <TextPath href="#text-path" startOffset="20%">
                 SVG Text on a linear path
             </TextPath>
