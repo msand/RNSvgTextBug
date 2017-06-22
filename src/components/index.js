@@ -13,6 +13,8 @@ import Toap03 from "./toap03";
 import Toap04 from "./toap04";
 import Text01 from "./text01";
 import Tref1 from "./tref1";
+import Request from "./request";
+import Request2 from "./request2";
 
 export {
   TextDecoration01,
@@ -29,5 +31,7 @@ export {
   Toap03,
   Toap04,
   Text01,
-  Tref1
+  Tref1,
+  Request,
+  Request2
 };

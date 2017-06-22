@@ -22,7 +22,7 @@ import {
   Use
 } from "svgs";
 
-export default ({ width, height }) => (
+export default ({ width, height, native }) => (
   <Svg width={width} height={height} viewBox="0 0 1000 300" version="1.1">
     <Defs>
       <Path
@@ -35,7 +35,7 @@ export default ({ width, height }) => (
     </Defs>
 
     <Use href="#MyPath1" fill="none" stroke="red" />
-    <Text fontFamily="Verdana" fontSize={(typeof width === 'string' ? "42.5" : "50")} fill="blue" letterSpacing={(typeof width === 'string' ? "0" : "0")}>
+    <Text fontFamily="Verdana" fontSize={native ? "50" : "42.5"} fill="blue">
       <TextPath href="#MyPath1">
         We go up, then we go down, then up again
       </TextPath>

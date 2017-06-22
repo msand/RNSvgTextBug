@@ -25,7 +25,14 @@ import {
 
 export default ({ width, height }) => (
   <Svg height={height} width={width} version="1.1" viewBox="0 0 500 120">
-    <Text fontFamily="Arial, sans-serif" fontSize="32" fill="red" x="40" y="40" rotate="5,15,25,35,45,55">
+    <Text
+      fontFamily="Arial, sans-serif"
+      fontSize="32"
+      fill="red"
+      x="40"
+      y="40"
+      rotate="5,15,25,35,45,55"
+    >
       Not
 
       <TSpan id="child1" rotate="-10,-20,-30,-40" fill="orange">
