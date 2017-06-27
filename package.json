@@ -23,7 +23,7 @@
 		"react": "^15.4.1",
 		"react-dom": "^15.4.1",
 		"react-native": "^0.42.3",
-		"react-native-svg": "git+https://github.com/msand/react-native-svg.git#bd84f09",
+		"react-native-svg": "git+https://github.com/msand/react-native-svg.git#f7f1909",
 		"svgs": "git+https://github.com/msand/svgs.git#c8f5925"
 	},
 	"devDependencies": {
@@ -34,5 +34,10 @@
 	},
 	"jest": {
 		"preset": "react-native"
+	},
+	"rnpm": {
+		"assets": [
+			"static/fonts"
+		]
 	}
 }

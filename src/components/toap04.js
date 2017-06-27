@@ -36,12 +36,7 @@ export default ({ width, height, native }) => (
       />
     </Defs>
     <Use href="#MyPath4" fill="none" stroke="red" />
-    <Text
-      fill="blue"
-      fontFamily="Verdana"
-      fontSize="60"
-      letterSpacing={native ? "4" : "0"}
-    >
+    <Text fill="blue" fontFamily="AvenirNextLTPro-Regular" fontSize="60">
       <TextPath href="#MyPath4">
         Choose shame or get war
       </TextPath>

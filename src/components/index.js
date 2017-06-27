@@ -15,6 +15,7 @@ import Text01 from "./text01";
 import Tref1 from "./tref1";
 import Request from "./request";
 import Request2 from "./request2";
+import OrigCoordSys from "./OrigCoordSys";
 
 export {
   TextDecoration01,
@@ -33,5 +34,6 @@ export {
   Text01,
   Tref1,
   Request,
-  Request2
+  Request2,
+  OrigCoordSys
 };

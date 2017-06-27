@@ -4,7 +4,7 @@ import Svg, { Path, Defs, Text, TSpan, TextPath } from "svgs";
 
 const Label = ({ name, x, native }) => (
   <Text y="0" fontSize="10">
-    <TextPath href="#textcurve" fill="red">
+    <TextPath href="#textcurve" fill="red" fontFamily="AvenirNextLTPro-Regular">
       <TSpan x={x}>
         {name}
       </TSpan>

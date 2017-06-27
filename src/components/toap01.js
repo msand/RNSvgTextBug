@@ -35,7 +35,7 @@ export default ({ width, height, native }) => (
     </Defs>
 
     <Use href="#MyPath1" fill="none" stroke="red" />
-    <Text fontFamily="Verdana" fontSize={native ? "50" : "42.5"} fill="blue">
+    <Text fontFamily="AvenirNextLTPro-Regular" fontSize="42.5" fill="blue">
       <TextPath href="#MyPath1">
         We go up, then we go down, then up again
       </TextPath>

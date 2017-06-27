@@ -37,6 +37,7 @@
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 		5C66BA50C81A4B0ABF4D1EDD /* libRNSVG.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FA3DB9D279B94DC6B1668BDB /* libRNSVG.a */; };
 		8513A40680044469B6623D5D /* libRNSVG-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 39F6764728624525B0C235E5 /* libRNSVG-tvOS.a */; };
+		9B0E2886331F45BA8B9D7AF4 /* AvenirNextLTPro-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 26E8A56890FB45638F1D1B6A /* AvenirNextLTPro-Regular.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -259,6 +260,7 @@
 		D3E22D688F4B443EA72893B1 /* RNSVG.xcodeproj */ = {isa = PBXFileReference; name = "RNSVG.xcodeproj"; path = "../node_modules/react-native-svg/ios/RNSVG.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
 		FA3DB9D279B94DC6B1668BDB /* libRNSVG.a */ = {isa = PBXFileReference; name = "libRNSVG.a"; path = "libRNSVG.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
 		39F6764728624525B0C235E5 /* libRNSVG-tvOS.a */ = {isa = PBXFileReference; name = "libRNSVG-tvOS.a"; path = "libRNSVG-tvOS.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		26E8A56890FB45638F1D1B6A /* AvenirNextLTPro-Regular.otf */ = {isa = PBXFileReference; name = "AvenirNextLTPro-Regular.otf"; path = "../static/fonts/AvenirNextLTPro-Regular.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -474,6 +476,7 @@
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* RNSvgTextBugTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
+				707AFBB1390B4195929BEE01 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -488,6 +491,15 @@
 				2D02E4901E0B4A5D006451C7 /* RNSvgTextBug-tvOSTests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		707AFBB1390B4195929BEE01 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				26E8A56890FB45638F1D1B6A /* AvenirNextLTPro-Regular.otf */,
+			);
+			name = Resources;
+			path = "";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -848,6 +860,7 @@
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				9B0E2886331F45BA8B9D7AF4 /* AvenirNextLTPro-Regular.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -16,7 +16,8 @@ import {
   Text01,
   Tref1,
   Request,
-  Request2
+  Request2,
+  OrigCoordSys
 } from "./index";
 
 // <TSpan03 width={width} height={width * 0.3} />
@@ -32,6 +33,7 @@ import {
 
 export default ({ width, height, native, View, style }) => (
   <View style={style}>
+    <OrigCoordSys width={width} height={height} native={native} />
     <Request width={width} height={height} native={native} />
     <Request2 width={width} height={height} native={native} />
     <ToapCircle width={width} height={height} native={native} />

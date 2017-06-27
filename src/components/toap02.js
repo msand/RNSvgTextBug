@@ -36,7 +36,7 @@ export default ({ width, height, native }) => (
     </Defs>
 
     <Use href="#MyPath2" fill="none" stroke="red" />
-    <Text fontFamily="Verdana" fontSize={native ? "50" : "42.5"} fill="blue">
+    <Text fontFamily="AvenirNextLTPro-Regular" fontSize="42.5" fill="blue">
       <TextPath href="#MyPath2">
         We go
         <TSpan dy="-30" fill="red">
