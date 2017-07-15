@@ -1,17 +1,8 @@
-# Minimal reproduction of text path rendering bug in react-native-svg
+# Collection of test cases for svg spec conformance
 
-Renders correctly in web / next.js, the text is on top of the path referenced in textpath
+Uses next.js and react-native, with svgs and react-native-svg.
 
-Renders incorrectly in native, text is below path (at least android, haven't tried ios)
+# Idea
+Single code-base cross-platform stack, using svg for rendering, js for logic, jsx/react for components. Enabling use of svg exported from e.g. illustrator as foundation and to easily make purely functional components from them.
 
-To test android
 
-`react-native run-android`
-
-To test web / next.js
-
-`npm run dev`
-
-![Screenshot](./screenshot.png "Screenshot")
-
-![Screenshot2](./screenshot2.png "Screenshot2")
