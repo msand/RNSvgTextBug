@@ -18,12 +18,12 @@
 		"babel-preset-react": "^6.24.1",
 		"babel-preset-stage-1": "^6.24.1",
 		"install": "^0.10.1",
-		"next": "^3.0.0-beta13",
+		"next": "3.0.1-beta.14",
 		"npm": "^5.0.3",
-		"react": "^15.4.1",
-		"react-dom": "^15.4.1",
-		"react-native": "^0.42.3",
-		"react-native-svg": "git+https://github.com/msand/react-native-svg.git#f7f1909",
+		"react": "16.0.0-alpha.12",
+		"react-dom": "^16.0.0-alpha.12",
+		"react-native": "0.46.3",
+		"react-native-svg": "https://github.com/msand/react-native-svg.git#5.3.0-conformance",
 		"svgs": "git+https://github.com/msand/svgs.git#c8f5925"
 	},
 	"devDependencies": {
