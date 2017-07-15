@@ -16,6 +16,16 @@ import Tref1 from "./tref1";
 import Request from "./request";
 import Request2 from "./request2";
 import OrigCoordSys from "./OrigCoordSys";
+import InitialCoords from "./InitialCoords";
+import Nested from "./Nested";
+import NewCoordSys from "./NewCoordSys";
+import PreserveAspectRatio from "./PreserveAspectRatio";
+import RotateScale from "./RotateScale";
+import Skew from "./Skew";
+import Units from "./Units";
+import ViewBox from "./ViewBox";
+import Pallura from "./Pallura";
+import Anchor from "./anchor";
 
 export {
   TextDecoration01,
@@ -35,5 +45,15 @@ export {
   Tref1,
   Request,
   Request2,
-  OrigCoordSys
+  OrigCoordSys,
+  InitialCoords,
+  Nested,
+  NewCoordSys,
+  PreserveAspectRatio,
+  RotateScale,
+  Skew,
+  Units,
+  ViewBox,
+  Pallura,
+  Anchor,
 };

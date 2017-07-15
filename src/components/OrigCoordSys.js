@@ -9,7 +9,7 @@ export default ({ width, height, native }) => (
       <Line x1="1.5" y1="0" x2="1.5" y2="150" />
     </G>
     <G>
-      <Text x="30" y="30" fontSize="20" fontFamily="AvenirNextLTPro-Regular">
+      <Text x="30" y="30" fontSize={20} fontFamily="AvenirNextLTPro-Regular">
         ABC (orig coord system)
       </Text>
     </G>

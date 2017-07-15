@@ -17,11 +17,13 @@ import All from "./components/all";
 
 const { width } = Dimensions.get("window");
 
+const shadow = require('./components/shadow-min.png');
+
 export default class RNSvgTextBug extends Component {
   render() {
     return (
       <ScrollView>
-        <All View={View} width={width} height={width * 0.3} native={true} />
+        <All View={View} width={width} height={width*0.3} native={true} shadow={shadow} />
       </ScrollView>
     );
   }

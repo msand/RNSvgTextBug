@@ -35,6 +35,6 @@ export default ({ width, height }) => (
     direction="rtl"
   >
     <Title direction="ltr" lang="en">Right-to-left Text</Title>
-    <Text fontSize="20" x="200" y="200">داستان SVG 1.1 SE طولا ني است.</Text>
+    <Text fontSize={20} x="200" y="200">داستان SVG 1.1 SE طولا ني است.</Text>
   </Svg>
 );

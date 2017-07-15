@@ -17,7 +17,17 @@ import {
   Tref1,
   Request,
   Request2,
-  OrigCoordSys
+  OrigCoordSys,
+  InitialCoords,
+  Nested,
+  NewCoordSys,
+  PreserveAspectRatio,
+  RotateScale,
+  Skew,
+  Units,
+  ViewBox,
+  Pallura,
+  Anchor,
 } from "./index";
 
 // <TSpan03 width={width} height={width * 0.3} />
@@ -31,9 +41,17 @@ import {
  StringToReal.java:323
  */
 
-export default ({ width, height, native, View, style }) => (
+export default ({ width, height, native, View, style, shadow }) => (
   <View style={style}>
+    <Anchor width={width} height={height} native={native} />
+    <Pallura width={width} height={height} native={native} shadow={shadow} />
+    <InitialCoords width={width} height={height} native={native} />
     <OrigCoordSys width={width} height={height} native={native} />
+    <Nested width={width} height={height} native={native} />
+    <NewCoordSys width={width} height={height} native={native} />
+    <RotateScale width={width} height={height} native={native} />
+    <Skew width={width} height={height} native={native} />
+    <ViewBox width={width} height={height} native={native} />
     <Request width={width} height={height} native={native} />
     <Request2 width={width} height={height} native={native} />
     <ToapCircle width={width} height={height} native={native} />

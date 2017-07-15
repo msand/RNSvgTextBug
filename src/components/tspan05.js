@@ -27,7 +27,7 @@ export default ({ width, height }) => (
   <Svg height={height} width={width} version="1.1" viewBox="0 0 500 120">
     <Text
       fontFamily="Arial, sans-serif"
-      fontSize="32"
+      fontSize={32}
       fill="red"
       x="40"
       y="40"

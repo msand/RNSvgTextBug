@@ -10,7 +10,7 @@ export default class App extends React.Component {
           y="20"
           dx="5 5"
           fontFamily="AvenirNextLTPro-Regular"
-          fontSize="15"
+          fontSize={15}
           letterSpacing="2"
           wordSpacing="0"
         >

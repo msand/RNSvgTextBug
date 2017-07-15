@@ -25,7 +25,7 @@ import {
 
 export default ({ width, height }) => (
   <Svg height={height} width={width} version="1.1" viewBox="0 0 1000 300">
-    <Text fill="blue" fontFamily="Verdana" fontSize="55" x="250" y="150">
+    <Text fill="blue" fontFamily="Verdana" fontSize={55} x="250" y="150">
       Hello, out there
     </Text>
     <Rect

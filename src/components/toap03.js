@@ -35,7 +35,7 @@ export default ({ width, height, native }) => (
       />
     </Defs>
     <Use href="#MyPath3" fill="none" stroke="red" />
-    <Text fill="blue" fontFamily="AvenirNextLTPro-Regular" fontSize="42.5">
+    <Text fill="blue" fontFamily="AvenirNextLTPro-Regular" fontSize={42.5}>
       <TextPath href="#MyPath3" startOffset={native ? "80%" : "80%"}>
         We go up, then we go down, then up again
       </TextPath>

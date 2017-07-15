@@ -30,8 +30,8 @@ export default ({ width, height }) => (
     <Defs>
       <Text id="ReferencedText">Referenced character data</Text>
     </Defs>
-    <Text fill="blue" fontSize="45" x="100" y="100">Inline character data</Text>
-    <Text x="100" y="200" fontSize="45" fill="red">
+    <Text fill="blue" fontSize={45} x="100" y="100">Inline character data</Text>
+    <Text x="100" y="200" fontSize={45} fill="red">
       <Tref href="#ReferencedText" />
     </Text>
     <Rect
