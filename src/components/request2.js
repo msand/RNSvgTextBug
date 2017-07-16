@@ -2,7 +2,7 @@ import React from "react";
 import Svg, { Defs, Rect, Path, Text, TextPath, TSpan } from "svgs";
 
 export default ({ width, height, native }) =>
-  <Svg width={width * 2} height={width * 440 / 660} viewBox="180 0 660 220">
+  <Svg width={width} height={width * 440 / 660} viewBox="180 0 330 220">
     <Defs>
       <Path id="text-path" d="M225,150 v-80 h240 v80 Z" />
     </Defs>
