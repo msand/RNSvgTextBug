@@ -31,7 +31,7 @@ import {
 } from "./index";
 
 export default ({ width, height, native, View, style, shadow }) =>
-  <View style={style}>
+  <View style={{ backgroundColor: "#ffffff", ...style }}>
     <Anchor width={width} height={height} native={native} />
     <Pallura width={width} height={height} native={native} shadow={shadow} />
     <InitialCoords width={width} height={height} native={native} />
