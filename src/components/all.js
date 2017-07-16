@@ -33,7 +33,12 @@ import {
 export default ({ width, height, native, View, style, shadow }) =>
   <View style={{ backgroundColor: "#ffffff", ...style }}>
     <Anchor width={width} height={height} native={native} />
-    <Pallura width={width} height={height} native={native} shadow={shadow} />
+    <Pallura
+      width={width}
+      height={height * 2}
+      native={native}
+      shadow={shadow}
+    />
     <InitialCoords width={width} height={height} native={native} />
     <OrigCoordSys width={width} height={height} native={native} />
     <Nested width={width} height={height} native={native} />

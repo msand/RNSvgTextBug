@@ -7,4 +7,5 @@ export default () =>
     width="100%"
     height="140px"
     native={false}
+    shadow="/static/shadow-min.png"
   />;
