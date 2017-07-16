@@ -12,7 +12,7 @@ const Label = ({ name, x, native }) =>
   </Text>;
 
 export default ({ width, native }) =>
-  <Svg width={width} height="200" viewBox="-150 0 600 300">
+  <Svg width={width} height={width * 300 / 300} viewBox="0 0 300 300">
     <Defs>
       <Path
         id="textcurve"

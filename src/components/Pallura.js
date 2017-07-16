@@ -414,7 +414,6 @@ export default ({ width, height, native, shadow }) =>
     >
       22%
     </Text>
-    <Circle cx="410" cy="440" r="10" fill="red" />
     <Circle
       fill="#ffffff"
       cx="407"
@@ -451,7 +450,6 @@ export default ({ width, height, native, shadow }) =>
     >
       152
     </Text>
-    <Circle cx="405" cy="317" r="10" fill="red" />
     <G scale="0.5">
       <G transform="translate(395, 395)" opacity="0.3">
         <Tiheys />
