@@ -24,7 +24,12 @@ import {
 } from "svgs";
 
 export default ({ width, height }) =>
-  <Svg height={height} width={width} version="1.1" viewBox="0 0 1200 400">
+  <Svg
+    height={width * 400 / 1200}
+    width={width}
+    version="1.1"
+    viewBox="0 0 1200 400"
+  >
     <Rect
       height="398"
       width="1198"

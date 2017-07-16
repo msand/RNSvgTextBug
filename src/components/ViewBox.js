@@ -4,7 +4,7 @@ import Svg, { G, Line, Defs, Rect, Path, Text, TextPath, TSpan } from "svgs";
 export default ({ width, height, native }) =>
   <Svg
     width={width}
-    height={height}
+    height={width * 1000 / 1500}
     viewBox="0 0 1500 1000"
     preserveAspectRatio="none"
     version="1.1"

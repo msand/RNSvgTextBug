@@ -44,7 +44,7 @@ const SectorLabel = ({ name, x }) =>
 export default ({ width, height, native, shadow }) =>
   <Svg
     width={width}
-    height={height}
+    height={width * 595.3 / 841.9}
     version="1.1"
     viewBox="0 0 841.9 595.3"
     x="0px"

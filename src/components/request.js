@@ -3,8 +3,9 @@ import Svg, { Rect, Text, TSpan } from "svgs";
 
 export default class App extends React.Component {
   render() {
+    const { width, height } = this.props;
     return (
-      <Svg width="120" height="67" viewBox="0 0 120 67">
+      <Svg height={width * 67 / 120} width={width} viewBox="0 0 120 67">
         <Rect fill="blue" x="0" y="25" width="5" height="42" />
         <Text
           y="20"

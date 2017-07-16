@@ -24,7 +24,12 @@ import {
 } from "svgs";
 
 export default ({ width, height }) =>
-  <Svg height={height} width={width} version="1.1" viewBox="0 0 1000 300">
+  <Svg
+    height={width * 300 / 1000}
+    width={width}
+    version="1.1"
+    viewBox="0 0 1000 300"
+  >
     <G fontFamily="Verdana" fontSize={45}>
       <Text fill="rgb(255,164,0)">
         <TSpan x="300 350 400 450 500 550 600 650" y="100">

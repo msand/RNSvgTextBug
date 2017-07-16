@@ -2,7 +2,12 @@ import React from "react";
 import Svg, { G, Line, Defs, Rect, Path, Text, TextPath, TSpan } from "svgs";
 
 export default ({ width, height, native }) =>
-  <Svg width={width} height={height} viewBox="0 0 4000 2000" version="1.1">
+  <Svg
+    width={width}
+    height={width * 2000 / 4000}
+    viewBox="0 0 4000 2000"
+    version="1.1"
+  >
     <Rect
       x="5"
       y="5"

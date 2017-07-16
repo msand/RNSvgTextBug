@@ -24,7 +24,12 @@ import {
 } from "svgs";
 
 export default ({ width, height }) =>
-  <Svg height={height} width={width} version="1.1" viewBox="0 0 500 120">
+  <Svg
+    height={width * 120 / 500}
+    width={width}
+    version="1.1"
+    viewBox="0 0 500 120"
+  >
     <Text
       fontFamily="Arial, sans-serif"
       fontSize={32}

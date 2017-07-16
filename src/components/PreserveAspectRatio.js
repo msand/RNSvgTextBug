@@ -12,7 +12,12 @@ import Svg, {
 } from "svgs";
 
 export default ({ width, height, native }) =>
-  <Svg width={width} height={height} version="1.1" viewBox="0 0 450 300">
+  <Svg
+    width={width}
+    height={width * 300 / 450}
+    version="1.1"
+    viewBox="0 0 450 300"
+  >
     <Rect x="1" y="1" width="448" height="298" fill="none" stroke="blue" />
     <G fontSize={9}>
       <Text x="10" y="30">

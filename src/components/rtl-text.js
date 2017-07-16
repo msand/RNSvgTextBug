@@ -27,7 +27,7 @@ const Title = props => <Text {...props} />;
 
 export default ({ width, height }) =>
   <Svg
-    height={height}
+    height={width / 2}
     width={width}
     version="1.1"
     viewBox="0 0 400 400"

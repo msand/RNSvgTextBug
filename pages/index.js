@@ -4,8 +4,7 @@ import All from "../src/components/all";
 export default () =>
   <All
     View={props => <div {...props} />}
-    width="100%"
-    height="140px"
+    width={1960}
     native={false}
     shadow="/static/shadow-min.png"
   />;

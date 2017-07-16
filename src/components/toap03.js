@@ -24,7 +24,12 @@ import {
 } from "svgs";
 
 export default ({ width, height, native }) =>
-  <Svg height={height} width={width} version="1.1" viewBox="0 0 1000 300">
+  <Svg
+    height={width * 300 / 1000}
+    width={width}
+    version="1.1"
+    viewBox="0 0 1000 300"
+  >
     <Defs>
       <Path
         id="MyPath3"
