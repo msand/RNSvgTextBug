@@ -27,21 +27,10 @@ import {
   Units,
   ViewBox,
   Pallura,
-  Anchor,
+  Anchor
 } from "./index";
 
-// <TSpan03 width={width} height={width * 0.3} />
-/* Fails with:
- Invalid float: "300 350 400 450 500 550 600 650"
- invalidReal
- StringToReal.java:63
- initialParse
- StringToReal.java:164
- parseFloat
- StringToReal.java:323
- */
-
-export default ({ width, height, native, View, style, shadow }) => (
+export default ({ width, height, native, View, style, shadow }) =>
   <View style={style}>
     <Anchor width={width} height={height} native={native} />
     <Pallura width={width} height={height} native={native} shadow={shadow} />
@@ -61,6 +50,7 @@ export default ({ width, height, native, View, style, shadow }) => (
     <Toap04 width={width} height={height} native={native} />
     <TSpan01 width={width} height={height} native={native} />
     <TSpan02 width={width} height={height} native={native} />
+    <TSpan03 width={width} height={height} native={native} />
     <TSpan04 width={width} height={height} native={native} />
     <TSpan05 width={width} height={height} native={native} />
     <Text01 width={width} height={height} native={native} />
@@ -68,5 +58,4 @@ export default ({ width, height, native, View, style, shadow }) => (
     <TextDecoration01 width={width} height={height} native={native} />
     <RtlComplex width={width} height={height} native={native} />
     <RtlText width={width} height={height} native={native} />
-  </View>
-);
+  </View>;

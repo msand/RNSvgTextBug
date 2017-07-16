@@ -1,6 +1,6 @@
-import React from 'react';
+import React from "react";
 
-import { Path, G } from 'svgs';
+import { Path, G } from "svgs";
 
 export default () =>
   <G>

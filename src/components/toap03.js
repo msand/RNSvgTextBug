@@ -23,7 +23,7 @@ import {
   Use
 } from "svgs";
 
-export default ({ width, height, native }) => (
+export default ({ width, height, native }) =>
   <Svg height={height} width={width} version="1.1" viewBox="0 0 1000 300">
     <Defs>
       <Path
@@ -49,5 +49,4 @@ export default ({ width, height, native }) => (
       x="1"
       y="1"
     />
-  </Svg>
-);
+  </Svg>;

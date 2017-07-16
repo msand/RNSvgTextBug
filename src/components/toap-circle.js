@@ -2,17 +2,16 @@ import React from "react";
 
 import Svg, { Path, Defs, Text, TSpan, TextPath } from "svgs";
 
-const Label = ({ name, x, native }) => (
+const Label = ({ name, x, native }) =>
   <Text y="0" fontSize={10}>
     <TextPath href="#textcurve" fill="red" fontFamily="AvenirNextLTPro-Regular">
       <TSpan x={x}>
         {name}
       </TSpan>
     </TextPath>
-  </Text>
-);
+  </Text>;
 
-export default ({ width, native }) => (
+export default ({ width, native }) =>
   <Svg width={width} height="200" viewBox="-150 0 600 300">
     <Defs>
       <Path
@@ -28,5 +27,4 @@ export default ({ width, native }) => (
     <Label native={native} x="25" name="Test 1" />
     <Label native={native} x="180" name="Test 2" />
     <Label native={native} x="485" name="Test 3" />
-  </Svg>
-);
+  </Svg>;

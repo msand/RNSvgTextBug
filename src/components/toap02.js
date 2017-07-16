@@ -23,7 +23,7 @@ import {
   Use
 } from "svgs";
 
-export default ({ width, height, native }) => (
+export default ({ width, height, native }) =>
   <Svg width={width} height={height} viewBox="0 0 1000 300" version="1.1">
     <Defs>
       <Path
@@ -42,9 +42,7 @@ export default ({ width, height, native }) => (
         <TSpan dy="-30" fill="red">
           up
         </TSpan>
-        <TSpan dy="30">
-          ,
-        </TSpan>
+        <TSpan dy="30">,</TSpan>
         then we go down, then up again
       </TextPath>
     </Text>
@@ -58,5 +56,4 @@ export default ({ width, height, native }) => (
       stroke="blue"
       strokeWidth="2"
     />
-  </Svg>
-);
+  </Svg>;

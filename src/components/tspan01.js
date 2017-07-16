@@ -23,7 +23,7 @@ import {
   Use
 } from "svgs";
 
-export default ({ width, height }) => (
+export default ({ width, height }) =>
   <Svg height={height} width={width} version="1.1" viewBox="0 0 1000 300">
     <G fontFamily="Verdana" fontSize={45}>
       <Text fill="blue" x="200" y="150">
@@ -39,5 +39,4 @@ export default ({ width, height }) => (
       x="1"
       y="1"
     />
-  </Svg>
-);
+  </Svg>;

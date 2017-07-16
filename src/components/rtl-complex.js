@@ -23,7 +23,7 @@ import {
   Use
 } from "svgs";
 
-export default ({ width, height }) => (
+export default ({ width, height }) =>
   <Svg
     height={height}
     width={width}
@@ -36,5 +36,4 @@ export default ({ width, height }) => (
       כתובת MAC:‏
       <TSpan direction="ltr">00-24-AF-2A-55-FC</TSpan>
     </Text>
-  </Svg>
-);
+  </Svg>;

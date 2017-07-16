@@ -1,6 +1,6 @@
-import React from 'react';
+import React from "react";
 
-import { Circle, Path, G } from 'svgs';
+import { Circle, Path, G } from "svgs";
 
 /*
  <Circle cx="421" cy="298.5" fill="#d1d3d4" r="79.3" />

@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 import Svg, {
   Circle,
@@ -11,16 +11,16 @@ import Svg, {
   Polygon,
   G,
   Text,
-  TextPath,
-} from 'svgs';
-import Tiheys from './Tiheys';
-import TiheysGraafi from './TiheysGraafi';
-import Osoitin from './Osoitin';
+  TextPath
+} from "svgs";
+import Tiheys from "./Tiheys";
+import TiheysGraafi from "./TiheysGraafi";
+import Osoitin from "./Osoitin";
 
 const colorMap = {
-  Green: '#99cc33',
-  Red: '#ec0687',
-  Orange: '#ec920b',
+  Green: "#99cc33",
+  Red: "#ec0687",
+  Orange: "#ec920b"
 };
 
 const colors = Object.values(colorMap);
@@ -42,7 +42,9 @@ const SectorLabel = ({ name, x }) =>
   </Text>;
 
 export default ({ width, height, native, shadow }) =>
-  <Svg width={width} height={height}
+  <Svg
+    width={width}
+    height={height}
     version="1.1"
     viewBox="0 0 841.9 595.3"
     x="0px"

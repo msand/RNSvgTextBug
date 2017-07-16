@@ -2,7 +2,7 @@ import React from "react";
 import Svg, { G, Line, Defs, Rect, Path, Text, TextPath, TSpan } from "svgs";
 
 // <Line x1="0" y1="110" x2="400" y2="110" />
-export default ({ width, height, native }) => (
+export default ({ width, height, native }) =>
   <Svg width={width} height={height} version="1.1" viewBox="0 0 400 150">
     <G fill="none" stroke="black" strokeWidth="3">
       <Line x1="0" y1="1.5" x2="400" y2="1.5" />
@@ -23,5 +23,4 @@ export default ({ width, height, native }) => (
       stroke="blue"
       strokeWidth="1"
     />
-  </Svg>
-);
+  </Svg>;

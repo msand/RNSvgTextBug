@@ -14,9 +14,15 @@ export default class App extends React.Component {
           letterSpacing="2"
           wordSpacing="0"
         >
-          <TSpan x="10" letterSpacing="0">tspan line 1</TSpan>
-          <TSpan x="10" dy="15">tspan line 2</TSpan>
-          <TSpan x="10" dx="10" dy="15">tspan line 3</TSpan>
+          <TSpan x="10" letterSpacing="0">
+            tspan line 1
+          </TSpan>
+          <TSpan x="10" dy="15">
+            tspan line 2
+          </TSpan>
+          <TSpan x="10" dx="10" dy="15">
+            tspan line 3
+          </TSpan>
         </Text>
       </Svg>
     );

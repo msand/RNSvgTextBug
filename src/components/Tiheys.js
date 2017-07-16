@@ -1,8 +1,8 @@
-import React from 'react';
+import React from "react";
 
-import { Circle, Path, G } from 'svgs';
+import { Circle, Path, G } from "svgs";
 
-export default () => (
+export default () =>
   <G>
     <Circle cx="421.6" cy="298.1" fill="#3c2415" r="8.7" />
     <G>
@@ -57,5 +57,4 @@ export default () => (
         fill="#3c2415"
       />
     </G>
-  </G>
-);
+  </G>;

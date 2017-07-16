@@ -1,7 +1,7 @@
 import React from "react";
 import Svg, { Defs, Rect, Path, Text, TextPath, TSpan } from "svgs";
 
-export default ({ width, height, native }) => (
+export default ({ width, height, native }) =>
   <Svg width={width} height={height} viewBox="0 0 660 220">
     <Defs>
       <Path id="text-path" d="M225,150 v-80 h240 v80 Z" />
@@ -23,5 +23,4 @@ export default ({ width, height, native }) => (
         SVG Text on a linear path
       </TextPath>
     </Text>
-  </Svg>
-);
+  </Svg>;

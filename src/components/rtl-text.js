@@ -25,7 +25,7 @@ import {
 
 const Title = props => <Text {...props} />;
 
-export default ({ width, height }) => (
+export default ({ width, height }) =>
   <Svg
     height={height}
     width={width}
@@ -34,7 +34,10 @@ export default ({ width, height }) => (
     xmlLang="fa"
     direction="rtl"
   >
-    <Title direction="ltr" lang="en">Right-to-left Text</Title>
-    <Text fontSize={20} x="200" y="200">داستان SVG 1.1 SE طولا ني است.</Text>
-  </Svg>
-);
+    <Title direction="ltr" lang="en">
+      Right-to-left Text
+    </Title>
+    <Text fontSize={20} x="200" y="200">
+      داستان SVG 1.1 SE طولا ني است.
+    </Text>
+  </Svg>;

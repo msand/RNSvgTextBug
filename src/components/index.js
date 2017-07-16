@@ -55,5 +55,5 @@ export {
   Units,
   ViewBox,
   Pallura,
-  Anchor,
+  Anchor
 };

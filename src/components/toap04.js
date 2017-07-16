@@ -23,7 +23,7 @@ import {
   Use
 } from "svgs";
 
-export default ({ width, height, native }) => (
+export default ({ width, height, native }) =>
   <Svg height={height} width={width} version="1.1" viewBox="0 0 1000 300">
     <Defs>
       <Path
@@ -37,9 +37,7 @@ export default ({ width, height, native }) => (
     </Defs>
     <Use href="#MyPath4" fill="none" stroke="red" />
     <Text fill="blue" fontFamily="AvenirNextLTPro-Regular" fontSize={60}>
-      <TextPath href="#MyPath4">
-        Choose shame or get war
-      </TextPath>
+      <TextPath href="#MyPath4">Choose shame or get war</TextPath>
     </Text>
     <Rect
       height="298"
@@ -50,5 +48,4 @@ export default ({ width, height, native }) => (
       x="1"
       y="1"
     />
-  </Svg>
-);
+  </Svg>;

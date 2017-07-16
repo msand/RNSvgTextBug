@@ -25,12 +25,14 @@ import {
 
 const Tref = props => <Text {...props} />;
 
-export default ({ width, height }) => (
+export default ({ width, height }) =>
   <Svg height={height} width={width} version="1.1" viewBox="0 0 1000 300">
     <Defs>
       <Text id="ReferencedText">Referenced character data</Text>
     </Defs>
-    <Text fill="blue" fontSize={45} x="100" y="100">Inline character data</Text>
+    <Text fill="blue" fontSize={45} x="100" y="100">
+      Inline character data
+    </Text>
     <Text x="100" y="200" fontSize={45} fill="red">
       <Tref href="#ReferencedText" />
     </Text>
@@ -43,5 +45,4 @@ export default ({ width, height }) => (
       x="1"
       y="1"
     />
-  </Svg>
-);
+  </Svg>;
