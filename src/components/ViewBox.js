@@ -19,7 +19,7 @@ export default ({ width, height, native }) =>
       strokeWidth="12"
     />
     <Path fill="red" d="M 750,100 L 250,900 L 1250,900 z" />
-    <Text x="100" y="600" fontSize={200} fontFamily="Verdana">
+    <Text x="100" y="600" fontSize={200} fontFamily="AvenirNextLTPro-Regular">
       Stretch to fit
     </Text>
   </Svg>;

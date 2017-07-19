@@ -9,6 +9,7 @@ import {
   TSpan03,
   TSpan04,
   TSpan05,
+  TSpan06,
   Toap01,
   Toap02,
   Toap03,
@@ -32,6 +33,7 @@ import {
 
 export default ({ width, height, native, View, style, shadow }) =>
   <View style={{ backgroundColor: "#ffffff", ...style }}>
+    <Units width={width} height={height} native={native} />
     <Anchor width={width} height={height} native={native} />
     <Pallura width={width} height={height} native={native} shadow={shadow} />
     <InitialCoords width={width} height={height} native={native} />
@@ -53,6 +55,7 @@ export default ({ width, height, native, View, style, shadow }) =>
     <TSpan03 width={width} height={height} native={native} />
     <TSpan04 width={width} height={height} native={native} />
     <TSpan05 width={width} height={height} native={native} />
+    <TSpan06 width={width} height={height} native={native} />
     <Text01 width={width} height={height} native={native} />
     <Tref1 width={width} height={height} native={native} />
     <TextDecoration01 width={width} height={height} native={native} />

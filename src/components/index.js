@@ -7,6 +7,7 @@ import TSpan02 from "./tspan02";
 import TSpan03 from "./tspan03";
 import TSpan04 from "./tspan04";
 import TSpan05 from "./tspan05";
+import TSpan06 from "./tspan06";
 import Toap01 from "./toap01";
 import Toap02 from "./toap02";
 import Toap03 from "./toap03";
@@ -37,6 +38,7 @@ export {
   TSpan03,
   TSpan04,
   TSpan05,
+  TSpan06,
   Toap01,
   Toap02,
   Toap03,

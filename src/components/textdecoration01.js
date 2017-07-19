@@ -44,7 +44,11 @@ export default ({ width, height }) =>
         Normal text
       </Text>
       <Text x="100" y="165" textDecoration="line-through">
-        Text with line-through
+        Text{" "}
+        <TSpan fill="yellow" stroke="darkgreen" textDecoration="underline">
+          with{" "}
+        </TSpan>
+        line-through
       </Text>
       <Text x="100" y="255" textDecoration="underline">
         Underlined text
