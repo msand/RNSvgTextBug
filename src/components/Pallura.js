@@ -36,7 +36,7 @@ const SectorLabel = ({ name, x }) =>
     x={x}
     y="0"
   >
-    <TextPath href="#textcurve">
+    <TextPath href="#textcurve" fontSize={8}>
       {name.toUpperCase()}
     </TextPath>
   </Text>;
@@ -46,12 +46,14 @@ export default ({ width, height, native, shadow }) =>
     width={width}
     height={width * 595.3 / 841.9}
     version="1.1"
-    viewBox="0 0 841.9 595.3"
+    viewBox="155 50 500 500"
     x="0px"
     y="0px"
     xmlSpace="preserve"
   >
     <Defs>
+      <Path id="calorie" d="M 320 440 H 495" fill="none" stroke="#00f" />
+      <Path id="density" d="M 375 317 H 438" fill="none" stroke="#00f" />
       <Path
         id="textcurve"
         fill="none"
@@ -186,14 +188,13 @@ export default ({ width, height, native, shadow }) =>
     <G id="Layer_1">
       <G>
         <Image
-          opacity="0.25"
+          opacity="0.15"
           width="2067"
           height="2066"
           href={shadow}
           preserveAspectRatio="xMidYMid slice"
-          transform="matrix(0.24 0 0 0.24 160 56)"
+          transform="matrix(0.24 0 0 0.24 160 55)"
         />
-
         <G>
           <Circle cx="407" cy="308.7" fill="#ffffff" r="241.8" />
         </G>
@@ -402,18 +403,26 @@ export default ({ width, height, native, shadow }) =>
       </G>
     </G>
     <Text
-      fontSize={24}
+      fontSize="24"
       fontStyle="normal"
       fontWeight="normal"
       fontFamily="AvenirNextLTPro-Regular"
       textAnchor="middle"
       stroke="black"
-      x="410"
-      y="440"
       strokeWidth="0.2px"
     >
-      22%
+      <TextPath href="#calorie" startOffset="52%">
+        22%
+      </TextPath>
     </Text>
+    <Image
+      opacity="0.05"
+      width="2067"
+      height="2066"
+      href={shadow}
+      preserveAspectRatio="xMidYMid slice"
+      transform="matrix(0.075 0 0 0.075 318.5 228.5)"
+    />
     <Circle
       fill="#ffffff"
       cx="407"
@@ -429,29 +438,37 @@ export default ({ width, height, native, shadow }) =>
         <Osoitin />
       </G>
     </G>
+    <Image
+      opacity="0.15"
+      width="2067"
+      height="2066"
+      href={shadow}
+      preserveAspectRatio="xMidYMid slice"
+      transform="matrix(0.026 0 0 0.026 375.5 281.5)"
+    />
     <Circle
       fill="#ffffff"
       cx="407"
       cy="308.7"
-      r="33"
-      stroke="gray"
+      r="25"
+      stroke="none"
       strokeOpacity="0.4"
     />
     <Text
-      fontSize={28}
+      fontSize={20}
       fontStyle="normal"
       fontWeight="normal"
       fontFamily="AvenirNextLTPro-Regular"
       textAnchor="middle"
       stroke="black"
-      x="405"
-      y="317"
-      strokeWidth="0.2px"
+      strokeWidth="0.1px"
     >
-      152
+      <TextPath href="#density" startOffset="49%" fontSize={20}>
+        152
+      </TextPath>
     </Text>
-    <G scale="0.5">
-      <G transform="translate(395, 395)" opacity="0.3">
+    <G scale="0.45">
+      <G transform="translate(482, 485)" opacity="0.3">
         <Tiheys />
       </G>
     </G>
@@ -476,7 +493,6 @@ export default ({ width, height, native, shadow }) =>
       </G>
     </G>
   </Svg>;
-
 /*
  <G transform="translate(152, 54)" opacity="0.9">
  <G scale="1.7">
