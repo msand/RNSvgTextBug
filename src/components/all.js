@@ -34,7 +34,6 @@ import {
 export default ({ width, height, native, View, style, shadow }) =>
   <View style={{ backgroundColor: "#ffffff", ...style }}>
     <Pallura width={width} height={height} native={native} shadow={shadow} />
-    <PreserveAspectRatio width={width} height={height} native={native} />
     <Anchor width={width} height={height} native={native} />
     <Units width={width} height={height} native={native} />
     <InitialCoords width={width} height={height} native={native} />
