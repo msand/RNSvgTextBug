@@ -20,16 +20,19 @@ export default ({ width, height, native }) =>
     />
 
     <Text textAnchor="start" x="60" y="40"
+          fontSize="24"
           fontFamily="AvenirNextLTPro-Regular">
       A
     </Text>
 
     <Text textAnchor="middle" x="60" y="75"
+          fontSize="24"
           fontFamily="AvenirNextLTPro-Regular">
       A
     </Text>
 
     <Text textAnchor="end" x="60" y="110"
+          fontSize="24"
           fontFamily="AvenirNextLTPro-Regular">
       A
     </Text>
