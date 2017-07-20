@@ -33,7 +33,7 @@ const SectorLabel = ({ name, x }) =>
     fontFamily="AvenirNextLTPro-Regular"
     fill="gray"
     strokeWidth="0.2px"
-    x={x}
+    dx={x}
     y="0"
   >
     <TextPath href="#textcurve" fontSize={8}>

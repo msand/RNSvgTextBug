@@ -30,7 +30,7 @@ export default ({ width, height }) =>
     version="1.1"
     viewBox="0 0 1000 300"
   >
-    <Text fill="blue" fontFamily="Verdana" fontSize={55}>
+    <Text fill="blue" fontFamily="AvenirNextLTPro-Regular" fontSize={55}>
       <TSpan x="250" y="150" rotate="-30,0,30">
         Hello, out there
       </TSpan>

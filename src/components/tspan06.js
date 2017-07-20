@@ -31,7 +31,7 @@ export default ({ width, height }) =>
     viewBox="0 0 500 320"
   >
     <Text
-      fontFamily="Arial, sans-serif"
+      fontFamily="AvenirNextLTPro-Regular"
       fontSize={32}
       fill="red"
       x="40"

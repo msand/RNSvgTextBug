@@ -19,7 +19,7 @@ export default ({ width, height, native }) =>
     viewBox="0 0 450 300"
   >
     <Rect x="1" y="1" width="448" height="298" fill="none" stroke="blue" />
-    <G fontSize={9}>
+    <G fontFamily="AvenirNextLTPro-Regular" fontSize={9}>
       <Text x="10" y="30">
         SVG to fit
       </Text>
