@@ -44,9 +44,9 @@ const SectorLabel = ({ name, x }) =>
 export default ({ width, height, native, shadow }) =>
   <Svg
     width={width}
-    height={width * 595.3 / 841.9}
+    height={width / 841.9 * 595.3}
     version="1.1"
-    viewBox="155 50 500 500"
+    viewBox="0 0 841.9 595.3"
     x="0px"
     y="0px"
     xmlSpace="preserve"
@@ -493,14 +493,3 @@ export default ({ width, height, native, shadow }) =>
       </G>
     </G>
   </Svg>;
-/*
- <G transform="translate(152, 54)" opacity="0.9">
- <G scale="1.7">
- <Path
- fill="none"
- stroke="#00f"
- d="M150 50c55.23 0 100 44.77 100 100s-44.77 100-100 100S50 205.23 50 150 94.77 50 150 50"
- />
- </G>
- </G>
- */

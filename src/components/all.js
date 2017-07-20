@@ -33,10 +33,10 @@ import {
 
 export default ({ width, height, native, View, style, shadow }) =>
   <View style={{ backgroundColor: "#ffffff", ...style }}>
-    <PreserveAspectRatio width={width} height={height} native={native} />
-    <Units width={width} height={height} native={native} />
-    <Anchor width={width} height={height} native={native} />
     <Pallura width={width} height={height} native={native} shadow={shadow} />
+    <PreserveAspectRatio width={width} height={height} native={native} />
+    <Anchor width={width} height={height} native={native} />
+    <Units width={width} height={height} native={native} />
     <InitialCoords width={width} height={height} native={native} />
     <OrigCoordSys width={width} height={height} native={native} />
     <Nested width={width} height={height} native={native} />
@@ -47,6 +47,7 @@ export default ({ width, height, native, View, style, shadow }) =>
     <Request width={width} height={height} native={native} />
     <Request2 width={width} height={height} native={native} />
     <ToapCircle width={width} height={height} native={native} />
+    <TSpan06 width={width} height={height} native={native} />
     <Toap01 width={width} height={height} native={native} />
     <Toap02 width={width} height={height} native={native} />
     <Toap03 width={width} height={height} native={native} />
@@ -56,7 +57,6 @@ export default ({ width, height, native, View, style, shadow }) =>
     <TSpan03 width={width} height={height} native={native} />
     <TSpan04 width={width} height={height} native={native} />
     <TSpan05 width={width} height={height} native={native} />
-    <TSpan06 width={width} height={height} native={native} />
     <Text01 width={width} height={height} native={native} />
     <Tref1 width={width} height={height} native={native} />
     <TextDecoration01 width={width} height={height} native={native} />
