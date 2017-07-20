@@ -421,7 +421,7 @@ export default ({ width, height, native, shadow }) =>
       height="2066"
       href={shadow}
       preserveAspectRatio="xMidYMid slice"
-      transform="matrix(0.075 0 0 0.075 318.5 228.5)"
+      transform="matrix(0.075 0 0 0.075 330 228.5)"
     />
     <Circle
       fill="#ffffff"
@@ -444,7 +444,7 @@ export default ({ width, height, native, shadow }) =>
       height="2066"
       href={shadow}
       preserveAspectRatio="xMidYMid slice"
-      transform="matrix(0.026 0 0 0.026 375.5 281.5)"
+      transform="matrix(0.026 0 0 0.026 380 281.5)"
     />
     <Circle
       fill="#ffffff"
