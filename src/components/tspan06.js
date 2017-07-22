@@ -39,9 +39,9 @@ export default ({ width, height }) =>
       dy="5,15,25,35,45,55"
     >
       Not{' '}
-      <TSpan id="child1" dy="-10,-20,-30,-40" fill="orange">
+      <TSpan id="child1" rotate="-10,-20,-30,-40" dy="-10,-20,-30,-40" fill="orange">
         all characters{' '}
-        <TSpan id="child2" dy="70,60,50,40,30,20,10" fill="yellow">
+        <TSpan id="child2" rotate="70,60,50,40,30,20,10" dy="70,60,50,40,30,20,10" fill="yellow">
           in{' '}
           <TSpan id="child3">the</TSpan>
         </TSpan>
@@ -50,7 +50,7 @@ export default ({ width, height }) =>
         </TSpan>
         have a
       </TSpan>
-      <TSpan id="child5" dy="-10" fill="blue">
+      <TSpan id="child5" rotate="-10" dy="-10" fill="blue">
         specified
       </TSpan>
       rotation
