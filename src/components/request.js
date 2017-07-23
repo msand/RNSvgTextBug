@@ -13,7 +13,7 @@ export default class App extends React.Component {
           fontFamily="AvenirNextLTPro-Regular"
           fontSize={15}
           letterSpacing="2"
-          wordSpacing="0"
+          wordSpacing="2"
         >
           <TSpan x="10" letterSpacing="0">
             tspan line 1

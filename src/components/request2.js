@@ -16,11 +16,12 @@ export default ({ width, height, native }) =>
     <Text
       stroke="#000"
       fontFamily="AvenirNextLTPro-Regular"
-      fontSize={native ? 24 : 24}
-      letterSpacing={native ? "1" : "1"}
+      fontSize="24"
+      letterSpacing="1"
     >
-      <TextPath href="#text-path" startOffset={native ? "20%" : "20%"}>
-        SVG Text on a linear path
+      <TextPath href="#text-path"
+                startOffset="20%">
+          testtesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttest
       </TextPath>
     </Text>
   </Svg>;
