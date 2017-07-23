@@ -30,7 +30,7 @@ export default ({ width, height }) =>
     version="1.1"
     viewBox="0 0 1000 300"
   >
-    <Text fill="blue" fontFamily="AvenirNextLTPro-Regular" fontSize={55} x="250" y="150">
+    <Text fill="blue" fontFamily="AvenirNextLTPro-Regular" fontSize="55" x="250" y="150">
       Hello, out there
     </Text>
     <Rect

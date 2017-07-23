@@ -11,11 +11,10 @@ export default class App extends React.Component {
           y="20"
           dx="5 5"
           fontFamily="AvenirNextLTPro-Regular"
-          fontSize={15}
-          letterSpacing="2"
+          fontSize="15"
           wordSpacing="2"
         >
-          <TSpan x="10" letterSpacing="0">
+          <TSpan x="10">
             tspan line 1
           </TSpan>
           <TSpan x="10" dy="15">

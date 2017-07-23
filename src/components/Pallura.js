@@ -29,14 +29,14 @@ const randomColor = () => colors[Math.floor(Math.random() * colors.length)];
 
 const SectorLabel = ({ name, x }) =>
   <Text
-    fontSize={8}
+    fontSize="8"
     fontFamily="AvenirNextLTPro-Regular"
     fill="gray"
     strokeWidth="0.2px"
     dx={x}
     y="0"
   >
-    <TextPath href="#textcurve" fontSize={8}>
+    <TextPath href="#textcurve" fontSize="8">
       {name.toUpperCase()}
     </TextPath>
   </Text>;
@@ -455,7 +455,7 @@ export default ({ width, height, native, shadow }) =>
       strokeOpacity="0.4"
     />
     <Text
-      fontSize={20}
+      fontSize="20"
       fontStyle="normal"
       fontWeight="normal"
       fontFamily="AvenirNextLTPro-Regular"
@@ -463,7 +463,7 @@ export default ({ width, height, native, shadow }) =>
       stroke="black"
       strokeWidth="0.1px"
     >
-      <TextPath href="#density" startOffset="49%" fontSize={20}>
+      <TextPath href="#density" startOffset="49%" fontSize="20">
         152
       </TextPath>
     </Text>

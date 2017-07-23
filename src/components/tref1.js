@@ -35,10 +35,10 @@ export default ({ width, height }) =>
     <Defs>
       <Text id="ReferencedText">Referenced character data</Text>
     </Defs>
-    <Text fontFamily="AvenirNextLTPro-Regular" fill="blue" fontSize={45} x="100" y="100">
+    <Text fontFamily="AvenirNextLTPro-Regular" fill="blue" fontSize="45" x="100" y="100">
       Inline character data
     </Text>
-    <Text fontFamily="AvenirNextLTPro-Regular" x="100" y="200" fontSize={45} fill="red">
+    <Text fontFamily="AvenirNextLTPro-Regular" x="100" y="200" fontSize="45" fill="red">
       <Tref href="#ReferencedText" />
     </Text>
     <Rect

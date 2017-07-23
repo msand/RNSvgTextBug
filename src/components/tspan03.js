@@ -30,7 +30,7 @@ export default ({ width, height }) =>
     version="1.1"
     viewBox="0 0 1000 300"
   >
-    <G fontFamily="AvenirNextLTPro-Regular" fontSize={45}>
+    <G fontFamily="AvenirNextLTPro-Regular" fontSize="45">
       <Text fill="rgb(255,164,0)">
         <TSpan x="300 350 400 450 500 550 600 650" y="100">
           Cute and

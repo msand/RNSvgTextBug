@@ -18,7 +18,7 @@ export default ({ width, height, native }) =>
           <Line x1="0" y1="0" x2="50" y2="0" />
           <Line x1="0" y1="0" x2="0" y2="50" />
         </G>
-        <Text x="0" y="0" fontSize={20} fontFamily="AvenirNextLTPro-Regular" fill="blue">
+        <Text x="0" y="0" fontSize="20" fontFamily="AvenirNextLTPro-Regular" fill="blue">
           ABC (rotate)
         </Text>
       </G>
@@ -29,7 +29,7 @@ export default ({ width, height, native }) =>
           <Line x1="0" y1="0" x2="50" y2="0" />
           <Line x1="0" y1="0" x2="0" y2="50" />
         </G>
-        <Text x="0" y="0" fontSize={20} fontFamily="AvenirNextLTPro-Regular" fill="blue">
+        <Text x="0" y="0" fontSize="20" fontFamily="AvenirNextLTPro-Regular" fill="blue">
           ABC (scale)
         </Text>
       </G>

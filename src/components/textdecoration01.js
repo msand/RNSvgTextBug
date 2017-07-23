@@ -39,7 +39,7 @@ export default ({ width, height }) =>
       x="1"
       y="1"
     />
-    <G fontFamily="AvenirNextLTPro-Regular" fontSize={60} fill="blue" stroke="red" strokeWidth="1">
+    <G fontFamily="AvenirNextLTPro-Regular" fontSize="60" fill="blue" stroke="red" strokeWidth="1">
       <Text x="100" y="75">
         Normal text
       </Text>

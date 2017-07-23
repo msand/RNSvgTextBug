@@ -17,7 +17,7 @@ export default ({ width, height, native }) =>
         <Line x1="0" y1="0" x2="50" y2="0" />
         <Line x1="0" y1="0" x2="0" y2="50" />
       </G>
-      <Text x="0" y="0" fontSize={16} fontFamily="AvenirNextLTPro-Regular">
+      <Text x="0" y="0" fontSize="16" fontFamily="AvenirNextLTPro-Regular">
         ....Translate(1)
       </Text>
       <G transform="rotate(-45)">
@@ -25,7 +25,7 @@ export default ({ width, height, native }) =>
           <Line x1="0" y1="0" x2="50" y2="0" />
           <Line x1="0" y1="0" x2="0" y2="50" />
         </G>
-        <Text x="0" y="0" fontSize={16} fontFamily="AvenirNextLTPro-Regular">
+        <Text x="0" y="0" fontSize="16" fontFamily="AvenirNextLTPro-Regular">
           ....Rotate(2)
         </Text>
         <G transform="translate(130,160)">
@@ -33,7 +33,7 @@ export default ({ width, height, native }) =>
             <Line x1="0" y1="0" x2="50" y2="0" />
             <Line x1="0" y1="0" x2="0" y2="50" />
           </G>
-          <Text x="0" y="0" fontSize={16} fontFamily="AvenirNextLTPro-Regular">
+          <Text x="0" y="0" fontSize="16" fontFamily="AvenirNextLTPro-Regular">
             ....Translate(3)
           </Text>
         </G>

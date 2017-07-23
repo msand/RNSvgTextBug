@@ -17,7 +17,7 @@ export default ({ width, height, native }) =>
       <Rect x="297" y="0" width="3" height="3" />
       <Rect x="0" y="97" width="3" height="3" />
     </G>
-    <G fontSize={14} fontFamily="AvenirNextLTPro-Regular">
+    <G fontSize="14" fontFamily="AvenirNextLTPro-Regular">
       <Text x="10" y="20">
         (0,0)
       </Text>

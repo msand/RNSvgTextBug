@@ -18,7 +18,7 @@ export default ({ width, height, native }) =>
       strokeWidth="10"
     />
 
-    <G fill="blue" stroke="red" fontFamily="AvenirNextLTPro-Regular" fontSize={150}>
+    <G fill="blue" stroke="red" fontFamily="AvenirNextLTPro-Regular" fontSize="150">
       <G transform="translate(400,0)">
         <Text x="-50" y="300" fill="black" stroke="none">
           Abs. units:

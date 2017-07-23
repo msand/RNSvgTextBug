@@ -34,10 +34,10 @@ export default ({ width, height }) =>
     xmlLang="fa"
     direction="rtl"
   >
-    <Title fontFamily="AvenirNextLTPro-Regular" fontSize={20} direction="ltr" lang="en">
+    <Title fontFamily="AvenirNextLTPro-Regular" fontSize="20" direction="ltr" lang="en">
       Right-to-left Text
     </Title>
-    <Text fontFamily="AvenirNextLTPro-Regular" fontSize={20} x="200" y="200">
+    <Text fontFamily="AvenirNextLTPro-Regular" fontSize="20" x="200" y="200">
       داستان SVG 1.1 SE طولا ني است.
     </Text>
   </Svg>;

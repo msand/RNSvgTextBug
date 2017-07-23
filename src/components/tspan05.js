@@ -32,7 +32,7 @@ export default ({ width, height }) =>
   >
     <Text
       fontFamily="AvenirNextLTPro-Regular"
-      fontSize={32}
+      fontSize="32"
       fill="red"
       x="40"
       y="40"

@@ -32,7 +32,7 @@ export default ({ width, height }) =>
     xmlLang="he"
     direction="rtl"
   >
-    <Text fontFamily="AvenirNextLTPro-Regular" fontSize={20} x="200" y="200">
+    <Text fontFamily="AvenirNextLTPro-Regular" fontSize="20" x="200" y="200">
       כתובת MAC:‏
       <TSpan direction="ltr">00-24-AF-2A-55-FC</TSpan>
     </Text>
