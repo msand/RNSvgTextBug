@@ -20,7 +20,7 @@ import { takeSnapshot, dirs } from "react-native-view-shot";
 
 const { PictureDir } = dirs;
 
-const { width } = Dimensions.get("window");
+const { width, height } = Dimensions.get("window");
 
 const shadow = require("./components/shadow-min.png");
 
@@ -34,7 +34,7 @@ export default class RNSvgTextBug extends Component {
         <All
           View={View}
           width={width}
-          height={150}
+          height={height}
           native={true}
           shadow={shadow}
         />
