@@ -28,11 +28,13 @@ import {
   Units,
   ViewBox,
   Pallura,
-  Anchor
+  Anchor,
+  Baseline,
 } from "./index";
 
 export default ({ width, height, native, View, style, shadow }) =>
   <View style={{ backgroundColor: "#ffffff", ...style }}>
+    <Baseline width={width} height={height} native={native} />
     <PreserveAspectRatio width={width} height={height} native={native} shadow={shadow} />
     <Pallura width={width} height={height} native={native} shadow={shadow} />
     <Anchor width={width} height={height} native={native} />

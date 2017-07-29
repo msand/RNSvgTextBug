@@ -27,6 +27,7 @@ import Units from "./Units";
 import ViewBox from "./ViewBox";
 import Pallura from "./Pallura";
 import Anchor from "./anchor";
+import Baseline from "./baseline";
 
 export {
   TextDecoration01,
@@ -57,5 +58,6 @@ export {
   Units,
   ViewBox,
   Pallura,
-  Anchor
+  Anchor,
+  Baseline,
 };
