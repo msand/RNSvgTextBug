@@ -47,7 +47,10 @@ export default ({ width, height, native, View, style, shadow }) =>
     <Skew width={width} height={height} native={native} />
     <ViewBox width={width} height={height} native={native} />
     <Request width={width} height={height} native={native} />
-    <Request2 width={width} height={height} native={native} />
+    <Request2 width={width} height={height} native={native} sharp={true} letterSpacing="0" />
+    <Request2 width={width} height={height} native={native} sharp={true} letterSpacing="1" />
+    <Request2 width={width} height={height} native={native} sharp={false} letterSpacing="0" />
+    <Request2 width={width} height={height} native={native} sharp={false} letterSpacing="1" />
     <ToapCircle width={width} height={height} native={native} />
     <TSpan06 width={width} height={height} native={native} />
     <Toap01 width={width} height={height} native={native} />

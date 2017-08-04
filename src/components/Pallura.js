@@ -11,7 +11,8 @@ import Svg, {
   Polygon,
   G,
   Text,
-  TextPath
+  TextPath,
+  TSpan,
 } from "svgs";
 import Tiheys from "./Tiheys";
 import TiheysGraafi from "./TiheysGraafi";
@@ -402,7 +403,9 @@ export default ({ width, height, native, shadow }) =>
       strokeWidth="0.2px"
     >
       <TextPath href="#calorie" startOffset="52%">
-        22%
+        <TSpan dx="0">
+          22%
+        </TSpan>
       </TextPath>
     </Text>
     <Image
