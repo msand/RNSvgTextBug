@@ -40,8 +40,11 @@ export default class RNSvgTextBug extends Component {
     if (Platform.OS === 'android') {
       RNFS
         .readFileAssets(`fonts/${font}.otf`, 'base64')
-        .then(res => JSON.decycle(opentype.parse(base64.decode(res))))
-        .then(fontData => this.setState({fontData}))
+        .then(res => opentype.parse(base64.decode(res)))
+        .then(fontData => {
+          console.log(fontData);
+          this.setState({fontData: JSON.decycle(fontData)});
+        })
         .catch(err => console.log(err));
     }
   }
