@@ -7,11 +7,11 @@ import Svg, {
   Text,
 } from "svgs";
 
-export default ({width, height, native}) =>
+export default ({width, height, native, fontData}) =>
   <Svg width={width} height={width} viewBox="0 0 960 500">
     <Line style={{"stroke": "green"}} x1="10" x2="920" y1="200.5" y2="200.5"/>
     <Text alignmentBaseline="central" fill="green" fontSize="14px" x="926" y="200.5" fontFamily="AvenirNextLTPro-Regular">y=0</Text>
-    <G className="terms" fontSize="60px" fontFamily="AvenirNextLTPro-Regular" transform="translate(20,200.5)">
+    <G className="terms" fontSize="60px" fontFamily="AvenirNextLTPro-Regular" transform="translate(20,200.5)" fontData={fontData}>
       <Text alignmentBaseline="alphabetic" x="0">(+)</Text>
       <Text baselineShift="-24%" x="100">(+)</Text>
       <Text alignmentBaseline="ideographic" x="200">(+)</Text>

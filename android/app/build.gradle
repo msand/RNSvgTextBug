@@ -138,6 +138,7 @@ dependencies {
     compile "com.android.support:appcompat-v7:25.3.1"
     compile "com.facebook.react:react-native:+"  // From node_modules
     compile project(path: ':react-native-view-shot')
+    compile project(path: ':react-native-fs')
 }
 
 // Run this once to be able to run the application with BUCK

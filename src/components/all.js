@@ -32,9 +32,9 @@ import {
   Baseline,
 } from "./index";
 
-export default ({ width, height, native, View, style, shadow }) =>
+export default ({ width, height, native, View, style, shadow, fontData }) =>
   <View style={{ backgroundColor: "#ffffff", ...style }}>
-    <Baseline width={width} height={height} native={native} />
+    <Baseline width={width} height={height} native={native} fontData={fontData} />
     <PreserveAspectRatio width={width} height={height} native={native} shadow={shadow} />
     <Pallura width={width} height={height} native={native} shadow={shadow} />
     <Anchor width={width} height={height} native={native} />

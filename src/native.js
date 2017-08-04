@@ -5,6 +5,7 @@
  */
 
 import React, { Component } from "react";
+import RNFS from 'react-native-fs';
 import {
   AppRegistry,
   StyleSheet,
@@ -12,11 +13,15 @@ import {
   View,
   Dimensions,
   ScrollView,
-  Button
+  Button,
+  Platform,
 } from "react-native";
+import base64 from 'base64-arraybuffer';
 import All from "./components/all";
 
 import { takeSnapshot, dirs } from "react-native-view-shot";
+
+const opentype = require('opentype.js');
 
 const { PictureDir } = dirs;
 
@@ -24,7 +29,22 @@ const { width, height } = Dimensions.get("window");
 
 const shadow = require("./components/shadow-min.png");
 
+const font = 'AvenirNextLTPro-Regular';
+
+require('./cycle');
+
 export default class RNSvgTextBug extends Component {
+  state = {fontData: null};
+  constructor() {
+    super();
+    if (Platform.OS === 'android') {
+      RNFS
+        .readFileAssets(`fonts/${font}.otf`, 'base64')
+        .then(res => JSON.decycle(opentype.parse(base64.decode(res))))
+        .then(fontData => this.setState({fontData}))
+        .catch(err => console.log(err));
+    }
+  }
   render() {
     return (
       <ScrollView
@@ -37,6 +57,7 @@ export default class RNSvgTextBug extends Component {
           height={height}
           native={true}
           shadow={shadow}
+          fontData={this.state.fontData}
         />
         <Button
           title="Snapshot"
